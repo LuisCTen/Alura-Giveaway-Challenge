@@ -22,21 +22,6 @@ function agregarAmigo(){
     
 }
 
-//Funcion para actualizar lista de amigos
-/*function actualizarListaAmigos(){
-    let lista=document.getElementById('listaAmigos');
-    console.log(`lisa:${lista}`);
-    asignarElemento('#listaAmigos',lista);
-}
-
-function asignarElemento(elemento,texto){
-    let elementoHTML =document.querySelector(elemento);
-    elementoHTML.innerHTML=texto;
-    console.log(`asignacion:${elemento} ${texto}`)
-    return;
-}
-actualizarListaAmigos();*/
-
 function actualizarListaAmigos() {
     // Obtener el elemento de la lista
     let listaAmigos = document.getElementById('listaAmigos'); 
@@ -67,6 +52,6 @@ function sortearAmigo(){
     }
     //console.log(`cant amigos ${cantAmigos} y indice aleatorio:${indiceAleatorio}`);
    let amigoSorteado=document.getElementById('resultado'); 
-    amigoSorteado.textContent =`el almigo sorteado es: ${arregloAmigos[indiceAleatorio]}`;
+    amigoSorteado.textContent =`el amigo sorteado es: ${arregloAmigos[indiceAleatorio]}`;
 }
 
